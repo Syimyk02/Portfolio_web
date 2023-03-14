@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.glnav{
+    padding: 20px 150px;
+    background-color: #040125;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.719);
+}
+.block{
+    background-image: url(./img/phone.svg);
+    height: 90vh;
+    background-size: cover;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+}
+.block2{
+    background-image: url(./img/group14.svg);
+    height: 120vh;
+    background-size: cover;
+}
+.block3{
+    background-image: url(./img/Илон2.svg);
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+}
+.footer{
+    background: linear-gradient(#10456D, #0B84DF);
+    height: 16vh;
+    display: grid;
+    align-items: center;
+    
+}
+.footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1000px;
+}
+hr{
+    border-width: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
